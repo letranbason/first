@@ -4,7 +4,7 @@ body {
 }
 
 #logo h2:before {
-	background: url(/images/galleries/style/652/images/icon-1.svg) no-repeat;
+	background: url(image/icon-1.svg) no-repeat;
 }
 
 #CP_TopBar a:not(.btn),
