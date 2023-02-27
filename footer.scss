@@ -1,15 +1,18 @@
+$color_1: #2da1a0;
+$color_2: #fff;
+
 footer {
 	a {
 		&:hover {
-			color: #2da1a0;
+			color: $color_1;
 		}
-		color: #fff;
+		color: $color_2;
 		&:focus {
-			color: #fff;
+			color: $color_2;
 		}
 	}
 	background: #111111;
-	color: #fff;
+	color: $color_2;
 	hr {
 		border-top: 1px solid rgba(255, 255, 255, 0.1);
 	}

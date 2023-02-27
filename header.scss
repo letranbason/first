@@ -1,3 +1,5 @@
+$color_1: black;
+
 #CP_Header {
 	background: #fff;
 	z-index: 16;
@@ -8,7 +10,7 @@
 	#title {
 		margin: 30px 0;
 		padding: 0;
-		color: black;
+		color: $color_1;
 	}
 }
 #logo {
@@ -20,7 +22,7 @@
 		padding: 0;
 		line-height: 30px;
 		display: inline-block;
-		font-weight: 401;
+		font-weight: 400;
 		&:before {
 			content: " ";
 			float: left;

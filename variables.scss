@@ -1,5 +1,24 @@
+$color_1: #2d3e50;
+$color_2: #2da1a0;
+$color_3: #2d82a1;
+$color_4: #fff;
+$color_5: #f4fafc;
+$color_6: #000;
+$background-color_1: #2da1a0;
+$background-color_2: #2d82a1;
+$background-color_3: #f4fafc;
+$background-color_4: #fff;
+$background-color_5: #000;
+$border-color_1: #2da1a0;
+$border-color_2: #2d82a1;
+$border-color_3: #f4fafc;
+$border-color_4: #fff;
+$border-color_5: #000;
+$border-color_6: transparent transparent #2da1a0 transparent;
+$border-color_7: #2da1a0 transparent transparent transparent;
+
 body {
-	color: #2d3e50;
+	color: $color_1;
 	background: #f4fafc;
 }
 #logo {
@@ -8,33 +27,33 @@ body {
 			background: url(/image/icon-1.svg) no-repeat;
 		}
 	}
-	color: #2d3e50;
+	color: $color_1;
 }
 #CP_TopBar {
 	a {
 		&:not(.btn) {
-			color: #2d3e50;
+			color: $color_1;
 			&:hover {
-				color: #2da1a0;
+				color: $color_2;
 			}
 		}
 	}
 }
 #CP_Breadcrumbs {
 	a {
-		color: #2d3e50;
+		color: $color_1;
 		&:hover {
-			color: #2da1a0;
+			color: $color_2;
 		}
 	}
 }
 #services {
-	color: #2d3e50;
+	color: $color_1;
 }
 #CP_SmartMenu {
 	a {
 		&:hover {
-			color: #2d3e50;
+			color: $color_1;
 		}
 		.sub-arrow {
 			&::before {
@@ -47,116 +66,116 @@ body {
 	}
 	ul {
 		a {
-			color: #2d3e50;
+			color: $color_1;
 			&:hover {
-				color: #2d3e50;
+				color: $color_1;
 			}
 			&:focus {
-				color: #2d3e50;
+				color: $color_1;
 			}
 			&:active {
-				color: #2d3e50;
+				color: $color_1;
 			}
 		}
 	}
 }
 a {
-	color: #2da1a0;
+	color: $color_2;
 	text-decoration: none;
 	&:hover {
-		color: #2d82a1;
+		color: $color_3;
 		text-decoration: underline;
 	}
 	&:focus {
-		color: #2d82a1;
+		color: $color_3;
 		text-decoration: underline;
 	}
 }
 .color-1 {
-	color: #2da1a0 !important;
-	border-color: #2da1a0 !important;
+	color: $color_2 !important;
+	border-color: $border-color_1 !important;
 }
 .bg-color-1 {
-	background-color: #2da1a0 !important;
-	border-color: #2da1a0 !important;
-	color: #fff !important;
+	background-color: $background-color_1 !important;
+	border-color: $border-color_1 !important;
+	color: $color_4 !important;
 }
 .color-2 {
-	color: #2d82a1 !important;
-	border-color: #2d82a1 !important;
+	color: $color_3 !important;
+	border-color: $border-color_2 !important;
 }
 .bg-color-2 {
-	background-color: #2d82a1 !important;
-	border-color: #2d82a1 !important;
-	color: #fff !important;
+	background-color: $background-color_2 !important;
+	border-color: $border-color_2 !important;
+	color: $color_4 !important;
 }
 .color-3 {
-	color: #f4fafc !important;
-	border-color: #f4fafc !important;
+	color: $color_5 !important;
+	border-color: $border-color_3 !important;
 }
 .bg-color-3 {
-	background-color: #f4fafc !important;
-	border-color: #f4fafc !important;
+	background-color: $background-color_3 !important;
+	border-color: $border-color_3 !important;
 }
 .white {
-	color: #fff !important;
+	color: $color_4 !important;
 }
 .bg-white {
-	background-color: #fff !important;
-	border-color: #fff !important;
+	background-color: $background-color_4 !important;
+	border-color: $border-color_4 !important;
 }
 .black {
-	color: #000 !important;
+	color: $color_6 !important;
 }
 .bg-black {
-	background-color: #000 !important;
-	border-color: #000 !important;
-	color: #fff !important;
+	background-color: $background-color_5 !important;
+	border-color: $border-color_5 !important;
+	color: $color_4 !important;
 }
 .btn-default {
-	color: #2da1a0;
-	border-color: #2da1a0;
+	color: $color_2;
+	border-color: $border-color_1;
 	&:focus {
-		color: #2da1a0;
-		border-color: #2da1a0;
+		color: $color_2;
+		border-color: $border-color_1;
 	}
 	&:active {
-		color: #2da1a0;
-		border-color: #2da1a0;
+		color: $color_2;
+		border-color: $border-color_1;
 		&:hover {
 			background: #2da1a0;
-			border-color: #2da1a0;
+			border-color: $border-color_1;
 		}
 	}
 	&:hover {
 		background: #2da1a0;
-		border-color: #2da1a0;
+		border-color: $border-color_1;
 	}
 }
 .btn-primary {
 	background: #2da1a0;
-	border-color: #2da1a0;
+	border-color: $border-color_1;
 	&:focus {
 		background: #2da1a0;
-		border-color: #2da1a0;
+		border-color: $border-color_1;
 	}
 	&:active {
 		background: #2da1a0;
-		border-color: #2da1a0;
+		border-color: $border-color_1;
 		&:hover {
 			background: #2d82a1;
-			border-color: #2d82a1;
+			border-color: $border-color_2;
 		}
 	}
 	&:hover {
 		background: #2d82a1;
-		border-color: #2d82a1;
+		border-color: $border-color_2;
 	}
 }
 footer {
 	a {
 		&:hover {
-			color: #2da1a0;
+			color: $color_2;
 		}
 	}
 	background: #111111;
@@ -178,15 +197,15 @@ body.blurFix {
 		ul {
 			a {
 				&:hover {
-					color: #fff;
+					color: $color_4;
 					background: #2da1a0;
 				}
 				&:focus {
-					color: #fff;
+					color: $color_4;
 					background: #2da1a0;
 				}
 				&:active {
-					color: #fff;
+					color: $color_4;
 					background: #2da1a0;
 				}
 				.sub-arrow {
@@ -194,7 +213,7 @@ body.blurFix {
 				}
 			}
 			a.highlighted {
-				color: #fff;
+				color: $color_4;
 				background: #2da1a0;
 			}
 		}
@@ -204,11 +223,11 @@ body.blurFix {
 			}
 		}
 		.scroll-up-arrow {
-			border-color: transparent transparent #2da1a0 transparent;
+			border-color: $border-color_6;
 		}
 		.scroll-down-arrow {
-			border-color: transparent transparent #2da1a0 transparent;
-			border-color: #2da1a0 transparent transparent transparent;
+			border-color: $border-color_6;
+			border-color: $border-color_7;
 		}
 	}
 }

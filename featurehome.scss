@@ -1,3 +1,7 @@
+$color_1: #fff;
+$background-color_1: #2da1a0;
+$border-color_1: #2da1a0;
+
 #CP_FeatureHome {
 	border: none;
 	position: relative;
@@ -22,9 +26,9 @@
 			width: calc(100% + 30px);
 		}
 		button {
-			background-color: #2da1a0;
-			color: #fff;
-			border-color: #2da1a0;
+			background-color: $background-color_1;
+			color: $color_1;
+			border-color: $border-color_1;
 			font-size: 14px;
 		}
 	}
@@ -42,3 +46,4 @@
 .box-shadow {
 	box-shadow: 0 0 5px rgba(0, 0, 0, .75);
 }
+
