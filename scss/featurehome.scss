@@ -2,6 +2,7 @@ $color_1: #fff;
 $background-color_1: #2da1a0;
 $border-color_1: #2da1a0;
 
+/*# sourceMappingURL=featurehome.css.map */
 #CP_FeatureHome {
 	border: none;
 	position: relative;
@@ -14,12 +15,7 @@ $border-color_1: #2da1a0;
 	.container {
 		position: relative;
 		height: 100%;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
-		-ms-flex-align: center;
-		-webkit-align-items: center;
-		-webkit-box-align: center;
 		align-items: center;
 		z-index: 4;
 		.row {
@@ -41,9 +37,8 @@ $border-color_1: #2da1a0;
 	}
 }
 .text-shadow {
-	text-shadow: 0 0 5px rgba(0, 0, 0, .75);
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
 .box-shadow {
-	box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
-
