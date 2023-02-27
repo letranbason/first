@@ -16,6 +16,7 @@
   float: left;
   display: block;
 }
+
 #logo h2 {
   margin: 15px 0;
   padding: 0;
@@ -23,6 +24,7 @@
   display: inline-block;
   font-weight: 400;
 }
+
 #logo h2:before {
   content: " ";
   float: left;
@@ -31,6 +33,7 @@
   width: 30px;
   margin-right: 5px;
 }
+
 #logo img {
   max-width: 300px;
   max-height: 100px;
@@ -45,4 +48,4 @@
   position: absolute;
   z-index: 100;
   border-radius: 0 0 4px 4px;
-}/*# sourceMappingURL=header.css.map */
+} /*# sourceMappingURL=header.css.map */

@@ -1,28 +1,31 @@
-$color_1: #2da1a0;
-$color_2: #fff;
-
 footer {
-	a {
-		&:hover {
-			color: $color_1;
-		}
-		color: $color_2;
-		&:focus {
-			color: $color_2;
-		}
-	}
-	background: #111111;
-	color: $color_2;
-	hr {
-		border-top: 1px solid rgba(255, 255, 255, 0.1);
-	}
-}
-#social {
+	background: black;
+	color: white;
+  }
+  
+  footer a {
+	color: white;
+  }
+  
+  footer a:hover {
+	color: #2da1a0;
+  }
+  
+  footer a:focus {
+	color: #fff;
+  }
+  
+  footer hr {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  #social {
 	text-align: right;
-	a {
-		text-decoration: none;
-		padding: 0 5px;
-		font-size: 20px;
-		line-height: 25px;
-	}
-}
+  }
+  
+  #social a {
+	text-decoration: none;
+	padding: 0 5px;
+	font-size: 20px;
+	line-height: 25px;
+  } /*# sourceMappingURL=footer.css.map */

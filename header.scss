@@ -1,43 +1,42 @@
-$color_1: black;
-
 #CP_Header {
 	background: #fff;
 	z-index: 16;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-#CP_FeatureSub {
-	#title {
-		margin: 30px 0;
-		padding: 0;
-		color: $color_1;
-	}
-}
-#logo {
+  }
+  
+  #CP_FeatureSub #title {
+	margin: 30px 0;
+	padding: 0;
+	color: black;
+  }
+  
+  #logo {
 	text-decoration: none;
 	float: left;
 	display: block;
-	h2 {
-		margin: 15px 0;
-		padding: 0;
-		line-height: 30px;
-		display: inline-block;
-		font-weight: 400;
-		&:before {
-			content: " ";
-			float: left;
-			display: block;
-			height: 30px;
-			width: 30px;
-			margin-right: 5px;
-		}
-	}
-	img {
-		max-width: 300px;
-		max-height: 100px;
-	}
-}
-#CP_SkipNav {
+  }
+  #logo h2 {
+	margin: 15px 0;
+	padding: 0;
+	line-height: 30px;
+	display: inline-block;
+	font-weight: 400;
+  }
+  #logo h2:before {
+	content: " ";
+	float: left;
+	display: block;
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+  }
+  #logo img {
+	max-width: 300px;
+	max-height: 100px;
+  }
+  
+  #CP_SkipNav {
 	opacity: 0;
 	left: 50%;
 	top: -34px;
@@ -46,4 +45,4 @@ $color_1: black;
 	position: absolute;
 	z-index: 100;
 	border-radius: 0 0 4px 4px;
-}
+  }/*# sourceMappingURL=header.css.map */

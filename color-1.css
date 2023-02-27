@@ -6,6 +6,7 @@ body {
 #logo {
   color: #2d3e50;
 }
+
 #logo h2:before {
   background: url(image/icon-1.svg) no-repeat;
 }
@@ -13,6 +14,7 @@ body {
 #CP_TopBar a:not(.btn) {
   color: #2d3e50;
 }
+
 #CP_TopBar a:not(.btn):hover {
   color: #2da1a0;
 }
@@ -20,6 +22,7 @@ body {
 #CP_Breadcrumbs a {
   color: #2d3e50;
 }
+
 #CP_Breadcrumbs a:hover {
   color: #2da1a0;
 }
@@ -31,21 +34,27 @@ body {
 #CP_SmartMenu a:hover {
   color: #2d3e50;
 }
+
 #CP_SmartMenu a .sub-arrow::before {
   background: #2d82a1;
 }
+
 #CP_SmartMenu a .sub-arrow::after {
   background: #2d82a1;
 }
+
 #CP_SmartMenu ul a {
   color: #2d3e50;
 }
+
 #CP_SmartMenu ul a:hover {
   color: #2d3e50;
 }
+
 #CP_SmartMenu ul a:focus {
   color: #2d3e50;
 }
+
 #CP_SmartMenu ul a:active {
   color: #2d3e50;
 }
@@ -54,10 +63,12 @@ a {
   color: #2da1a0;
   text-decoration: none;
 }
+
 a:hover {
   color: #2d82a1;
   text-decoration: underline;
 }
+
 a:focus {
   color: #2d82a1;
   text-decoration: underline;
@@ -118,18 +129,22 @@ a:focus {
   color: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-default:focus {
   color: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-default:active {
   color: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-default:active:hover {
   background: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-default:hover {
   background: #2da1a0;
   border-color: #2da1a0;
@@ -139,18 +154,22 @@ a:focus {
   background: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-primary:focus {
   background: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-primary:active {
   background: #2da1a0;
   border-color: #2da1a0;
 }
+
 .btn-primary:active:hover {
   background: #2d82a1;
   border-color: #2d82a1;
 }
+
 .btn-primary:hover {
   background: #2d82a1;
   border-color: #2d82a1;
@@ -159,6 +178,7 @@ a:focus {
 footer {
   background: #111111;
 }
+
 footer a:hover {
   color: #2da1a0;
 }
@@ -210,4 +230,4 @@ body.blurFix #CP_StyleOverlay {
   #CP_FeatureHome .container .tagline {
     background: linear-gradient(0deg, rgba(244, 250, 252, 0.7) 75%, rgba(244, 250, 252, 0) 100%);
   }
-}/*# sourceMappingURL=color-1.css.map */
+} /*# sourceMappingURL=color-1.css.map */

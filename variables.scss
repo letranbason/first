@@ -1,242 +1,233 @@
-$color_1: #2d3e50;
-$color_2: #2da1a0;
-$color_3: #2d82a1;
-$color_4: #fff;
-$color_5: #f4fafc;
-$color_6: #000;
-$background-color_1: #2da1a0;
-$background-color_2: #2d82a1;
-$background-color_3: #f4fafc;
-$background-color_4: #fff;
-$background-color_5: #000;
-$border-color_1: #2da1a0;
-$border-color_2: #2d82a1;
-$border-color_3: #f4fafc;
-$border-color_4: #fff;
-$border-color_5: #000;
-$border-color_6: transparent transparent #2da1a0 transparent;
-$border-color_7: #2da1a0 transparent transparent transparent;
-
 body {
-	color: $color_1;
+	color: #2d3e50;
 	background: #f4fafc;
-}
-#logo {
-	h2 {
-		&:before {
-			background: url(/image/icon-1.svg) no-repeat;
-		}
-	}
-	color: $color_1;
-}
-#CP_TopBar {
-	a {
-		&:not(.btn) {
-			color: $color_1;
-			&:hover {
-				color: $color_2;
-			}
-		}
-	}
-}
-#CP_Breadcrumbs {
-	a {
-		color: $color_1;
-		&:hover {
-			color: $color_2;
-		}
-	}
-}
-#services {
-	color: $color_1;
-}
-#CP_SmartMenu {
-	a {
-		&:hover {
-			color: $color_1;
-		}
-		.sub-arrow {
-			&::before {
-				background: #2d82a1;
-			}
-			&::after {
-				background: #2d82a1;
-			}
-		}
-	}
-	ul {
-		a {
-			color: $color_1;
-			&:hover {
-				color: $color_1;
-			}
-			&:focus {
-				color: $color_1;
-			}
-			&:active {
-				color: $color_1;
-			}
-		}
-	}
-}
-a {
-	color: $color_2;
+  }
+  
+  #logo {
+	color: #2d3e50;
+  }
+  
+  #logo h2:before {
+	background: url(/image/icon-1.svg) no-repeat;
+  }
+  
+  #CP_TopBar a:not(.btn) {
+	color: #2d3e50;
+  }
+  
+  #CP_TopBar a:not(.btn):hover {
+	color: #2da1a0;
+  }
+  
+  #CP_Breadcrumbs a {
+	color: #2d3e50;
+  }
+  
+  #CP_Breadcrumbs a:hover {
+	color: #2da1a0;
+  }
+  
+  #services {
+	color: #2d3e50;
+  }
+  
+  #CP_SmartMenu a:hover {
+	color: #2d3e50;
+  }
+  
+  #CP_SmartMenu a .sub-arrow::before {
+	background: #2d82a1;
+  }
+  
+  #CP_SmartMenu a .sub-arrow::after {
+	background: #2d82a1;
+  }
+  
+  #CP_SmartMenu ul a {
+	color: #2d3e50;
+  }
+  
+  #CP_SmartMenu ul a:hover {
+	color: #2d3e50;
+  }
+  
+  #CP_SmartMenu ul a:focus {
+	color: #2d3e50;
+  }
+  
+  #CP_SmartMenu ul a:active {
+	color: #2d3e50;
+  }
+  
+  a {
+	color: #2da1a0;
 	text-decoration: none;
-	&:hover {
-		color: $color_3;
-		text-decoration: underline;
-	}
-	&:focus {
-		color: $color_3;
-		text-decoration: underline;
-	}
-}
-.color-1 {
-	color: $color_2 !important;
-	border-color: $border-color_1 !important;
-}
-.bg-color-1 {
-	background-color: $background-color_1 !important;
-	border-color: $border-color_1 !important;
-	color: $color_4 !important;
-}
-.color-2 {
-	color: $color_3 !important;
-	border-color: $border-color_2 !important;
-}
-.bg-color-2 {
-	background-color: $background-color_2 !important;
-	border-color: $border-color_2 !important;
-	color: $color_4 !important;
-}
-.color-3 {
-	color: $color_5 !important;
-	border-color: $border-color_3 !important;
-}
-.bg-color-3 {
-	background-color: $background-color_3 !important;
-	border-color: $border-color_3 !important;
-}
-.white {
-	color: $color_4 !important;
-}
-.bg-white {
-	background-color: $background-color_4 !important;
-	border-color: $border-color_4 !important;
-}
-.black {
-	color: $color_6 !important;
-}
-.bg-black {
-	background-color: $background-color_5 !important;
-	border-color: $border-color_5 !important;
-	color: $color_4 !important;
-}
-.btn-default {
-	color: $color_2;
-	border-color: $border-color_1;
-	&:focus {
-		color: $color_2;
-		border-color: $border-color_1;
-	}
-	&:active {
-		color: $color_2;
-		border-color: $border-color_1;
-		&:hover {
-			background: #2da1a0;
-			border-color: $border-color_1;
-		}
-	}
-	&:hover {
-		background: #2da1a0;
-		border-color: $border-color_1;
-	}
-}
-.btn-primary {
+  }
+  
+  a:hover {
+	color: #2d82a1;
+	text-decoration: underline;
+  }
+  
+  a:focus {
+	color: #2d82a1;
+	text-decoration: underline;
+  }
+  
+  .color-1 {
+	color: #2da1a0 !important;
+	border-color: #2da1a0 !important;
+  }
+  
+  .bg-color-1 {
+	background-color: #2da1a0 !important;
+	border-color: #2da1a0 !important;
+	color: #fff !important;
+  }
+  
+  .color-2 {
+	color: #2d82a1 !important;
+	border-color: #2d82a1 !important;
+  }
+  
+  .bg-color-2 {
+	background-color: #2d82a1 !important;
+	border-color: #2d82a1 !important;
+	color: #fff !important;
+  }
+  
+  .color-3 {
+	color: #f4fafc !important;
+	border-color: #f4fafc !important;
+  }
+  
+  .bg-color-3 {
+	background-color: #f4fafc !important;
+	border-color: #f4fafc !important;
+  }
+  
+  .white {
+	color: #fff !important;
+  }
+  
+  .bg-white {
+	background-color: #fff !important;
+	border-color: #fff !important;
+  }
+  
+  .black {
+	color: #000 !important;
+  }
+  
+  .bg-black {
+	background-color: #000 !important;
+	border-color: #000 !important;
+	color: #fff !important;
+  }
+  
+  .btn-default {
+	color: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-default:focus {
+	color: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-default:active {
+	color: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-default:active:hover {
 	background: #2da1a0;
-	border-color: $border-color_1;
-	&:focus {
-		background: #2da1a0;
-		border-color: $border-color_1;
-	}
-	&:active {
-		background: #2da1a0;
-		border-color: $border-color_1;
-		&:hover {
-			background: #2d82a1;
-			border-color: $border-color_2;
-		}
-	}
-	&:hover {
-		background: #2d82a1;
-		border-color: $border-color_2;
-	}
-}
-footer {
-	a {
-		&:hover {
-			color: $color_2;
-		}
-	}
+	border-color: #2da1a0;
+  }
+  
+  .btn-default:hover {
+	background: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-primary {
+	background: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-primary:focus {
+	background: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-primary:active {
+	background: #2da1a0;
+	border-color: #2da1a0;
+  }
+  
+  .btn-primary:active:hover {
+	background: #2d82a1;
+	border-color: #2d82a1;
+  }
+  
+  .btn-primary:hover {
+	background: #2d82a1;
+	border-color: #2d82a1;
+  }
+  
+  footer {
 	background: #111111;
-}
-#CP_FeatureSub {
-	background-image: -webkit-gradient(linear, left top, right top, from(#2d82a1), to(#2da1a0));
+  }
+  
+  footer a:hover {
+	color: #2da1a0;
+  }
+  
+  #CP_FeatureSub {
 	background-image: linear-gradient(to right, #2d82a1, #2da1a0);
-}
-.modal-backdrop {
-	background: rgba(244, 250, 252, .9);
-}
-body.blurFix {
-	#CP_StyleOverlay {
-		background: rgba(244, 250, 252, .9);
+  }
+  
+  .modal-backdrop {
+	background: rgba(244, 250, 252, 0.9);
+  }
+  
+  body.blurFix #CP_StyleOverlay {
+	background: rgba(244, 250, 252, 0.9);
+  }
+  
+  @media (min-width: 992px) {
+	#CP_SmartMenu ul a:hover {
+	  color: #fff;
+	  background: #2da1a0;
 	}
-}
-@media (min-width: 992px) {
-	#CP_SmartMenu {
-		ul {
-			a {
-				&:hover {
-					color: $color_4;
-					background: #2da1a0;
-				}
-				&:focus {
-					color: $color_4;
-					background: #2da1a0;
-				}
-				&:active {
-					color: $color_4;
-					background: #2da1a0;
-				}
-				.sub-arrow {
-					border-left: 4px solid #2da1a0;
-				}
-			}
-			a.highlighted {
-				color: $color_4;
-				background: #2da1a0;
-			}
-		}
-		a {
-			.sub-arrow {
-				border-top: 8px solid #2da1a0;
-			}
-		}
-		.scroll-up-arrow {
-			border-color: $border-color_6;
-		}
-		.scroll-down-arrow {
-			border-color: $border-color_6;
-			border-color: $border-color_7;
-		}
+	#CP_SmartMenu ul a:focus {
+	  color: #fff;
+	  background: #2da1a0;
 	}
-}
-@media (max-width: 991px) {
-	#CP_FeatureHome {
-		.container {
-			.tagline {
-				background: linear-gradient(0deg, rgba(244,250,252,.7) 75%, rgba(244,250,252,0) 100%);
-			}
-		}
+	#CP_SmartMenu ul a:active {
+	  color: #fff;
+	  background: #2da1a0;
 	}
-}
+	#CP_SmartMenu ul a .sub-arrow {
+	  border-left: 4px solid #2da1a0;
+	}
+	#CP_SmartMenu ul a.highlighted {
+	  color: #fff;
+	  background: #2da1a0;
+	}
+	#CP_SmartMenu a .sub-arrow {
+	  border-top: 8px solid #2da1a0;
+	}
+	#CP_SmartMenu .scroll-up-arrow {
+	  border-color: transparent transparent #2da1a0 transparent;
+	}
+	#CP_SmartMenu .scroll-down-arrow {
+	  border-color: transparent transparent #2da1a0 transparent;
+	  border-color: #2da1a0 transparent transparent transparent;
+	}
+  }
+  @media (max-width: 991px) {
+	#CP_FeatureHome .container .tagline {
+	  background: linear-gradient(0deg, rgba(244, 250, 252, 0.7) 75%, rgba(244, 250, 252, 0) 100%);
+	}
+  } /*# sourceMappingURL=variables.css.map */
