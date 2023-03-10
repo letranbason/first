@@ -3,13 +3,6 @@
     "development"
   ],
   "hints": {
-    "meta-viewport": "off",
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ],
     "axe/name-role-value": [
       "default",
       {
@@ -17,14 +10,13 @@
         "link-name": "off"
       }
     ],
-    "disown-opener": "off",
-    "no-inline-styles": "off",
-    "axe/parsing": [
+    "axe/text-alternatives": [
       "default",
       {
-        "duplicate-id-active": "off"
+        "image-alt": "off"
       }
     ],
-    "meta-charset-utf-8": "off"
+    "disown-opener": "off",
+    "no-inline-styles": "off"
   }
 }
